@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&family=Jomhuria&family=Spicy+Rice&display=swap"
+        rel="stylesheet">
+    <title>Shoes Store</title>
+    <link rel="stylesheet" href="v.css">
+</head>
+<body>
+    <header>
+        <h1>Shoes Store</h1>
+        <nav>
+            <ul>
+                <li><a href="#" id="homeLink">Home</a></li>
+                <li><a href="#" id="productsLink">Products</a></li>
+                <li><a href="v2.html" id="aboutuslink" target="_blank">About us</a></li>
+            </ul>
+        </nav>
+    </header>
+            <section id="title">
+            <h2>Welcome to (Shoes Store)</h2>
+            <button id="enterButton">الدخول إلى المتجر</button>
+            <h3>استمتع بمشاهدة بعض من مجموعتنا المتنوعة من الأحذية الفاخرة </h3>
+</section>
+    <main>
+        <section id="welcome" class="center-img">
+                <div class="product">
+                <img src="./img/s11.jpg" alt="حذاء 1" class="product-img">
+                <h3>Wingtip Oxfords - Black</h3>
+                <p class="detils">Oxfords-Genuine Leather-Wingtip-Classic-Shoelaces</p>
+            </div>
+            <div class="product">
+                <img src="./img/s12.jpg" alt="حذاء 2" class="product-img">
+                <h3>Cap Toe Oxfords - Grey</h3>
+                <p class="detils">Oxfords-Genuine Leather-Cap Toe-Classic-Shoelaces</p>
+            </div>
+            <div class="product">
+                <img src="./img/s13.jpg" alt="حذاء 3" class="product-img">
+                <h3>Plain Toe Derby - Navy</h3>
+                <p class="detils">Oxfords-Suede-Plain Toe-Classic-Shoelaces</p>
+            </div>
+        </section>
+        <section id="products" class="hidden">
+            <h2>Our Products</h2>
+            <div class="product">
+                <img src="./img/s1.jpg" alt="حذاء 1" class="product-img">
+                <h3>Wingtip Oxfords - Black</h3>
+                <p>Oxfords-Genuine Leather-Wingtip-Classic-Shoelaces</p>
+                <p class="price">200</p>
+                <button class="add-to-cart">Buy Now</button>
+            </div>
+            <div class="product">
+                <img src="./img/s2.jpg" alt="حذاء 2"class="product-img">
+                <h3>Wingtip Oxfords - Brown</h3>
+                <p>Oxfords-Genuine Leather-Wingtip-Classic-Shoelaces</p>
+                <p class="price">200</p>
+                <button class="add-to-cart">Buy Now</button>
+            </div>
+            <div class="product">
+                <img src="./img/s3.jpg" alt="حذاء 3"class="product-img">
+                <h3>Cap Toe Oxfords - Grey</h3>
+                <p>Oxfords-Genuine Leather-Cap Toe-Classic-Shoelaces</p>
+                <p class="price">300</p>
+                <button class="add-to-cart">Buy Now</button>
+            </div>
+            <div class="product">
+                <img src="./img/s4.jpg" alt="حذاء 4"class="product-img">
+                <h3>Cap Toe Oxfords - Havan</h3>
+                <p>Oxfords-Genuine Leather-Cap Toe-Classic-Shoelaces</p>
+                <p class="price">300</p>
+                <button class="add-to-cart">Buy Now</button>
+            </div>
+            <div class="product">
+                <img src="./img/s5.jpg" alt="حذاء 5"class="product-img">
+                <h3>Plain Toe Derby - Navy</h3>
+                <p>Oxfords-Suede-Plain Toe-Classic-Shoelaces</p>
+                <p class="price">450</p>
+                <button class="add-to-cart">Buy Now</button>
+            </div>
+            <div class="product">
+                <img src="./img/s6.jpg" alt="حذاء 6"class="product-img">
+                <h3>Plain Toe Derby - Blue</h3>
+                <p>Oxfords-Suede-Plain Toe-Classic-Shoelaces</p>
+                <p class="price">450</p>
+                <button class="add-to-cart">Buy Now</button>
+            </div>
+        </section>
+        <section id="cart" class="hidden">
+            <h2>اجمالي المشتريات</h2>
+            <ul id="cartItems"></ul>
+            <p>القيمة الإجمالية: <span id="total">0</span> جنيه</p>
+            <button id="checkoutButton">تأكيد الدفع</button>
+        </section>
+    </main>
+    <footer>
+        <p> &copy; 2024  . جميع الحقوق محفوظة </p>
+    </footer>
+    <script src="v.js"></script>
+</body>
+</html>
